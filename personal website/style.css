@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(purple.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ui{
+    list-style-type: none;
+    float: right;
+    margin-top: 20px;
+}
+ui li{
+    display: inline-block;
+}
+ui li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border: 1px solid#fff;
+    transition: 0.5s ease;
+}
+ui li a:hover{
+    background-color: #fff;
+    color: black;
+}
+ui li.active a{
+    background-color: #fff;
+    color: black;
+}
+.logo img{
+    float: left;
+    width: 250px;
+    height: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: white;
+    font-size: 70px;
+}
+.button{
+    position: absolute;
+    top: 59%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 1px solid#fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #fff;
+    color: black;
+}
+.Top Photos{
+    max-width: 1200px;
+    margin: auto;
+    background: #f2f2f2;
+    overflow: auto;
+}
